@@ -60,6 +60,154 @@
           },
           {
             "position": {
+              "x": 1915,
+              "y": -1.9999999999995453
+            },
+            "size": {
+              "width": 310,
+              "height": 970
+            },
+            "attrs": {
+              "label": {
+                "text": "Security and Management"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "bbd5f1af-7ccf-4ccc-a6de-15c2273b06fb",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Security and Management\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "3ec58502-d8fe-49c7-bfce-c3bc63799e2e",
+                "44813afa-4921-4f67-b333-025ffd5f383b",
+                "56045d94-a61b-4a7e-89aa-af51757f5bb5",
+                "48ff1e04-da9e-4208-873f-41696f2b3852",
+                "df034c53-6695-4a79-bddc-4c5552ad8a33",
+                "82eb69db-2be0-4b98-a71c-ea06aaeba9bc"
+              ],
+              "containedElements": [
+                "8063f852-651a-4332-8397-4968ecba5bf7",
+                "0b4ffcb6-5ec1-4d37-812e-80ac20a15f18",
+                "2a9a8f7a-2110-43e5-bb09-c0a317fcc8dd",
+                "f1c1f056-73dd-4c95-b40c-4bbabd668ae5"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 1390,
+              "y": -201.99999999999994
+            },
+            "size": {
+              "width": 240,
+              "height": 390
+            },
+            "attrs": {
+              "label": {
+                "text": "HR Zone/ Sensitive"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "e8b0d6f1-ba15-4e66-a3a5-5db157694dbf",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "HR Zone/ Sensitive\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "2d2c6df4-180d-4386-ad8e-edeffa12f7cc",
+                "728e6e36-fcd2-4569-9adf-a3b4dd9aa2ec",
+                "54fd906d-467f-492a-95b2-7b1b7e893088",
+                "26b89838-fef6-4077-82fe-ee3fea23a339"
+              ],
+              "containedElements": [
+                "f0494ce8-3737-445b-b1ca-43c395ad1e75",
+                "9aa3f2db-5bca-4138-b08c-a5d7cd4b614d"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 833,
+              "y": 463.0000000000009
+            },
+            "size": {
+              "width": 560,
+              "height": 180
+            },
+            "attrs": {
+              "label": {
+                "text": "Internal Corporate Zone"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "fa4d29e5-4251-46df-b0b7-5efcf315a0b6",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Internal Corporate Zone\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "3ec58502-d8fe-49c7-bfce-c3bc63799e2e",
+                "48ff1e04-da9e-4208-873f-41696f2b3852",
+                "5369e020-5830-4606-acfc-5766075fb4e9",
+                "5e891aa3-1d4e-458c-b3aa-954bac91eaaa"
+              ],
+              "containedElements": [
+                "6a7ec026-d77f-4a1b-99fb-88a98238c2d6",
+                "bcfe765a-3ddd-445d-8a97-36bfe3d27ed2"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 1390,
+              "y": 323.0000000000009
+            },
+            "size": {
+              "width": 270,
+              "height": 130
+            },
+            "attrs": {
+              "label": {
+                "text": "Cloud Service Boundary"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "e4a14257-e0b5-42d0-af5d-c9ea986b0411",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Cloud Service Boundary\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "2334fff5-277e-45d5-bdcf-6af6c0159014",
+                "558c0574-096e-44de-b860-ec5492eb4e0b",
+                "728e6e36-fcd2-4569-9adf-a3b4dd9aa2ec",
+                "44813afa-4921-4f67-b333-025ffd5f383b",
+                "56045d94-a61b-4a7e-89aa-af51757f5bb5"
+              ],
+              "containedElements": [
+                "a99c0d28-d58b-4d0f-93ba-de15c14f4bcb"
+              ]
+            }
+          },
+          {
+            "position": {
               "x": 555,
               "y": 90
             },
@@ -181,7 +329,7 @@
           {
             "position": {
               "x": 710,
-              "y": 580
+              "y": 680
             },
             "size": {
               "width": 80,
@@ -897,8 +1045,8 @@
           },
           {
             "position": {
-              "x": 40,
-              "y": 580
+              "x": 20,
+              "y": 630
             },
             "size": {
               "width": 112.5,
@@ -1014,7 +1162,7 @@
           },
           {
             "position": {
-              "x": 60,
+              "x": 20,
               "y": 740
             },
             "size": {
@@ -1209,7 +1357,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e4a14257-e0b5-42d0-af5d-c9ea986b0411"
+              ]
             },
             "labels": [
               "Role-Based Access (Remote consultant client deliverables upload)\n"
@@ -1330,8 +1480,8 @@
             },
             "vertices": [
               {
-                "x": 550,
-                "y": 615
+                "x": 570,
+                "y": 710
               }
             ]
           },
@@ -1415,7 +1565,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e8b0d6f1-ba15-4e66-a3a5-5db157694dbf"
+              ]
             },
             "labels": [
               "Authorized HR Session"
@@ -1468,7 +1620,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "2c862a77-e5e3-4185-b18d-96a777691cea"
+                "2c862a77-e5e3-4185-b18d-96a777691cea",
+                "e4a14257-e0b5-42d0-af5d-c9ea986b0411"
               ]
             },
             "labels": [
@@ -1521,7 +1674,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e8b0d6f1-ba15-4e66-a3a5-5db157694dbf",
+                "e4a14257-e0b5-42d0-af5d-c9ea986b0411"
+              ]
             },
             "labels": [
               "HR Backup Data"
@@ -1568,7 +1724,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "bbd5f1af-7ccf-4ccc-a6de-15c2273b06fb",
+                "fa4d29e5-4251-46df-b0b7-5efcf315a0b6"
+              ]
             },
             "labels": [
               "Audit Logs"
@@ -1671,7 +1830,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "bbd5f1af-7ccf-4ccc-a6de-15c2273b06fb",
+                "e4a14257-e0b5-42d0-af5d-c9ea986b0411"
+              ]
             },
             "labels": [
               "Backup Replication"
@@ -1718,7 +1880,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "bbd5f1af-7ccf-4ccc-a6de-15c2273b06fb",
+                "e4a14257-e0b5-42d0-af5d-c9ea986b0411"
+              ]
             },
             "labels": [
               "Storage Access Logs"
@@ -1770,7 +1935,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "bbd5f1af-7ccf-4ccc-a6de-15c2273b06fb",
+                "fa4d29e5-4251-46df-b0b7-5efcf315a0b6"
+              ]
             },
             "labels": [
               "Email Activity Logs"
@@ -1929,7 +2097,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "2c862a77-e5e3-4185-b18d-96a777691cea"
+                "2c862a77-e5e3-4185-b18d-96a777691cea",
+                "e8b0d6f1-ba15-4e66-a3a5-5db157694dbf"
               ]
             },
             "labels": [
@@ -2087,7 +2256,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "bbd5f1af-7ccf-4ccc-a6de-15c2273b06fb"
+              ]
             },
             "labels": [
               "RBAC Authorized Access"
@@ -2101,122 +2272,7 @@
               "cell": "0b4ffcb6-5ec1-4d37-812e-80ac20a15f18",
               "port": "c522cf7a-3825-4c20-b820-c14b19d20771"
             },
-            "vertices": [
-              {
-                "x": 1110,
-                "y": 70
-              }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -2249,7 +2305,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fa4d29e5-4251-46df-b0b7-5efcf315a0b6"
+              ]
             },
             "labels": [
               "Authorized Session Token"
@@ -2305,7 +2363,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fa4d29e5-4251-46df-b0b7-5efcf315a0b6"
+              ]
             },
             "labels": [
               "SAML/OIDC Auth Token"
@@ -2353,7 +2413,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "2c862a77-e5e3-4185-b18d-96a777691cea"
+                "2c862a77-e5e3-4185-b18d-96a777691cea",
+                "bbd5f1af-7ccf-4ccc-a6de-15c2273b06fb"
               ]
             },
             "labels": [
@@ -2502,7 +2563,7 @@
           {
             "position": {
               "x": 1450,
-              "y": 110
+              "y": 120
             },
             "size": {
               "width": 120,
@@ -3110,8 +3171,8 @@
           },
           {
             "position": {
-              "x": 360,
-              "y": 575
+              "x": 350,
+              "y": 640
             },
             "size": {
               "width": 90,
@@ -3383,7 +3444,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e8b0d6f1-ba15-4e66-a3a5-5db157694dbf"
+              ]
             },
             "labels": [
               "Auth Token/ Auth Session"
