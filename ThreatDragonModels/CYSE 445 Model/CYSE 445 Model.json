@@ -281,6 +281,39 @@
           },
           {
             "position": {
+              "x": 19.499999999999517,
+              "y": 250
+            },
+            "size": {
+              "width": 190,
+              "height": 160
+            },
+            "attrs": {
+              "label": {
+                "text": "Authenticated External \nEntity Boundary"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "f34f7ba3-731f-478e-9781-3ca57a0bb43e",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Authenticated External \nEntity Boundary\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "1ab9da15-d569-4cc0-a565-97bed7961281",
+                "110c3e38-95e7-4a76-bb54-4ef4a211334c"
+              ],
+              "containedElements": [
+                "b3728dd2-0e87-4f13-aaae-adbf7a9cec73"
+              ]
+            }
+          },
+          {
+            "position": {
               "x": 555,
               "y": 90
             },
@@ -1000,8 +1033,8 @@
           },
           {
             "position": {
-              "x": 30,
-              "y": 300
+              "x": 58.24999999999952,
+              "y": 318.00000000000045
             },
             "size": {
               "width": 112.5,
@@ -2067,7 +2100,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "2c862a77-e5e3-4185-b18d-96a777691cea"
+                "2c862a77-e5e3-4185-b18d-96a777691cea",
+                "f34f7ba3-731f-478e-9781-3ca57a0bb43e"
               ]
             },
             "labels": [
@@ -2121,7 +2155,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "68c36d24-643b-4c74-8a36-56502707f095"
+                "68c36d24-643b-4c74-8a36-56502707f095",
+                "f34f7ba3-731f-478e-9781-3ca57a0bb43e"
               ]
             },
             "labels": [
