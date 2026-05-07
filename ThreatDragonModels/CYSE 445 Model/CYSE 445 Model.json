@@ -28,7 +28,7 @@
             },
             "attrs": {
               "label": {
-                "text": "DMZ/ Permiter ( WAF, Web portal, Perim Firewall)"
+                "text": "DMZ Boundary ( WAF, Web portal, Perim Firewall)\n"
               }
             },
             "visible": true,
@@ -37,7 +37,7 @@
             "id": "2c862a77-e5e3-4185-b18d-96a777691cea",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "DMZ/ Permiter ( WAF, Web portal, Perim Firewall)\n",
+              "name": "DMZ Boundary\n ( WAF, Web portal, Perim Firewall)\n",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -69,7 +69,7 @@
             },
             "attrs": {
               "label": {
-                "text": "Security and Management"
+                "text": "Security and Management Boundary\n"
               }
             },
             "visible": true,
@@ -78,7 +78,7 @@
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Security and Management\n",
+              "name": "Security and Management Boundary\n\n",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -109,7 +109,7 @@
             },
             "attrs": {
               "label": {
-                "text": "HR Zone/ Sensitive"
+                "text": "HR Sensitive Zone Boundary\n"
               }
             },
             "visible": true,
@@ -118,7 +118,7 @@
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "HR Zone/ Sensitive\n",
+              "name": "HR Sensitive Zone Boundary\n\n",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -145,7 +145,7 @@
             },
             "attrs": {
               "label": {
-                "text": "Internal Corporate Zone"
+                "text": "Internal Corporate Zone Boundary\n"
               }
             },
             "visible": true,
@@ -154,7 +154,7 @@
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Internal Corporate Zone\n",
+              "name": "Internal Corporate Zone Boundary\n\n",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -203,6 +203,79 @@
               ],
               "containedElements": [
                 "a99c0d28-d58b-4d0f-93ba-de15c14f4bcb"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 841.9999999999997,
+              "y": -173.99999999999943
+            },
+            "size": {
+              "width": 230,
+              "height": 400
+            },
+            "attrs": {
+              "label": {
+                "text": "Identity and Access Boundary\n"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "68c36d24-643b-4c74-8a36-56502707f095",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Identity and Access Boundary\n\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "834883d8-407f-4bdd-bb1f-a8df1d829bed",
+                "2334fff5-277e-45d5-bdcf-6af6c0159014",
+                "2d2c6df4-180d-4386-ad8e-edeffa12f7cc",
+                "110c3e38-95e7-4a76-bb54-4ef4a211334c",
+                "94e049ee-2054-491a-8acc-5a35b0a11aae",
+                "df034c53-6695-4a79-bddc-4c5552ad8a33",
+                "5369e020-5830-4606-acfc-5766075fb4e9",
+                "5e891aa3-1d4e-458c-b3aa-954bac91eaaa",
+                "26b89838-fef6-4077-82fe-ee3fea23a339"
+              ],
+              "containedElements": [
+                "dbcb7558-c581-4a5e-8cde-a1a36a917a72"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 14.499999999999517,
+              "y": -101.99999999999915
+            },
+            "size": {
+              "width": 200,
+              "height": 290
+            },
+            "attrs": {
+              "label": {
+                "text": "Internal Corporate\n Zone Boundary\n"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "2be02f83-1748-476a-8c76-8ae7a2fca516",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Internal Corporate\n Zone Boundary\n\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "94e049ee-2054-491a-8acc-5a35b0a11aae",
+                "a258507c-5118-4036-9bc1-81ade792ca9f"
+              ],
+              "containedElements": [
+                "0cd16c66-de10-43d7-887f-3218fe7854d1"
               ]
             }
           },
@@ -1309,7 +1382,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "2c862a77-e5e3-4185-b18d-96a777691cea"
+                "2c862a77-e5e3-4185-b18d-96a777691cea",
+                "68c36d24-643b-4c74-8a36-56502707f095"
               ]
             },
             "labels": [
@@ -1358,7 +1432,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "e4a14257-e0b5-42d0-af5d-c9ea986b0411"
+                "e4a14257-e0b5-42d0-af5d-c9ea986b0411",
+                "68c36d24-643b-4c74-8a36-56502707f095"
               ]
             },
             "labels": [
@@ -1566,7 +1641,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "e8b0d6f1-ba15-4e66-a3a5-5db157694dbf"
+                "e8b0d6f1-ba15-4e66-a3a5-5db157694dbf",
+                "68c36d24-643b-4c74-8a36-56502707f095"
               ]
             },
             "labels": [
@@ -2044,7 +2120,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "68c36d24-643b-4c74-8a36-56502707f095"
+              ]
             },
             "labels": [
               "Auth Token/ Auth Session"
@@ -2151,7 +2229,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "68c36d24-643b-4c74-8a36-56502707f095",
+                "2be02f83-1748-476a-8c76-8ae7a2fca516"
+              ]
             },
             "labels": [
               "Auth Token/ Auth Sessio"
@@ -2208,7 +2289,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "2c862a77-e5e3-4185-b18d-96a777691cea"
+                "2c862a77-e5e3-4185-b18d-96a777691cea",
+                "2be02f83-1748-476a-8c76-8ae7a2fca516"
               ]
             },
             "labels": [
@@ -2257,7 +2339,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "bbd5f1af-7ccf-4ccc-a6de-15c2273b06fb"
+                "bbd5f1af-7ccf-4ccc-a6de-15c2273b06fb",
+                "68c36d24-643b-4c74-8a36-56502707f095"
               ]
             },
             "labels": [
@@ -2306,7 +2389,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "fa4d29e5-4251-46df-b0b7-5efcf315a0b6"
+                "fa4d29e5-4251-46df-b0b7-5efcf315a0b6",
+                "68c36d24-643b-4c74-8a36-56502707f095"
               ]
             },
             "labels": [
@@ -2364,7 +2448,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "fa4d29e5-4251-46df-b0b7-5efcf315a0b6"
+                "fa4d29e5-4251-46df-b0b7-5efcf315a0b6",
+                "68c36d24-643b-4c74-8a36-56502707f095"
               ]
             },
             "labels": [
@@ -3445,7 +3530,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "e8b0d6f1-ba15-4e66-a3a5-5db157694dbf"
+                "e8b0d6f1-ba15-4e66-a3a5-5db157694dbf",
+                "68c36d24-643b-4c74-8a36-56502707f095"
               ]
             },
             "labels": [
