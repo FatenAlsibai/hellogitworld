@@ -19,11 +19,11 @@
         "cells": [
           {
             "position": {
-              "x": 320,
-              "y": -41.999999999999545
+              "x": 345,
+              "y": -96.99999999999955
             },
             "size": {
-              "width": 490,
+              "width": 380,
               "height": 890
             },
             "attrs": {
@@ -44,16 +44,13 @@
               "crossingFlows": [
                 "834883d8-407f-4bdd-bb1f-a8df1d829bed",
                 "a15584d5-1b12-4c3f-aec6-bca1902cb808",
-                "90c56d40-ed0a-4d4d-ad6b-bb9e62b07fb5",
-                "558c0574-096e-44de-b860-ec5492eb4e0b",
+                "ca02c1ee-38a9-4e84-9daa-0801b49ee7e3",
                 "1ab9da15-d569-4cc0-a565-97bed7961281",
                 "54fd906d-467f-492a-95b2-7b1b7e893088",
-                "a258507c-5118-4036-9bc1-81ade792ca9f",
-                "82eb69db-2be0-4b98-a71c-ea06aaeba9bc"
+                "a258507c-5118-4036-9bc1-81ade792ca9f"
               ],
               "containedElements": [
                 "5c85321a-069a-482d-a7f1-1d399f3ba1fa",
-                "b2ca332b-3a10-40fd-91ce-fe626fff85e3",
                 "bd300369-e47b-4b33-ba11-0b97b0ca755f"
               ]
             }
@@ -434,8 +431,8 @@
           },
           {
             "position": {
-              "x": 710,
-              "y": 680
+              "x": 655,
+              "y": 500
             },
             "size": {
               "width": 80,
@@ -1151,8 +1148,8 @@
           },
           {
             "position": {
-              "x": 20,
-              "y": 630
+              "x": 30,
+              "y": 490
             },
             "size": {
               "width": 112.5,
@@ -1268,8 +1265,8 @@
           },
           {
             "position": {
-              "x": 20,
-              "y": 740
+              "x": 30,
+              "y": 585
             },
             "size": {
               "width": 112.5,
@@ -1572,7 +1569,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "2c862a77-e5e3-4185-b18d-96a777691cea"
+              ]
             },
             "labels": [
               "Inspected / Filtered Traffic"
@@ -1588,8 +1587,8 @@
             },
             "vertices": [
               {
-                "x": 570,
-                "y": 710
+                "x": 520,
+                "y": 540
               }
             ]
           },
@@ -1624,9 +1623,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "2c862a77-e5e3-4185-b18d-96a777691cea"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Data Flow"
@@ -1640,7 +1637,12 @@
               "cell": "b2ca332b-3a10-40fd-91ce-fe626fff85e3",
               "port": "b2076200-f8c5-464b-9132-e03bc28a2a6b"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 390,
+                "y": 615
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1729,7 +1731,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "2c862a77-e5e3-4185-b18d-96a777691cea",
                 "e4a14257-e0b5-42d0-af5d-c9ea986b0411"
               ]
             },
@@ -2533,7 +2534,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "2c862a77-e5e3-4185-b18d-96a777691cea",
                 "bbd5f1af-7ccf-4ccc-a6de-15c2273b06fb"
               ]
             },
@@ -3291,8 +3291,8 @@
           },
           {
             "position": {
-              "x": 350,
-              "y": 640
+              "x": 345,
+              "y": 500
             },
             "size": {
               "width": 90,
